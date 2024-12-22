@@ -1,0 +1,7 @@
+[console_scripts]
+cv2_vis = autorace_core_SkufLords.camera:main
+detect = autorace_core_SkufLords.detect:main
+lidar_greedy = autorace_core_SkufLords.lidar_greedy:main
+road_analyze = autorace_core_SkufLords.road_analyze:main
+velor = autorace_core_SkufLords.velor:main
+
