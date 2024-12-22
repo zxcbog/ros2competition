@@ -15,14 +15,22 @@ class MinimalPublisher(Node):
             10
         )
 
-        # self.angle_subscription = self.create_subscription(
-        #     Float32,
-        #     '/angle',
-        #     self.angle_callback,
-        #     10
-        # )
+        self.angle_subscription = self.create_subscription(
+            Float32,
+            '/angle',
+            self.angle_callback,
+            10
+        )
+
+        self.linear_subscription = self.create_subscription(
+            Float32,
+            '/linear',
+            self.linear_callback,
+            10
+        )
 
         self.angle = 0
+        self.linear = 0
 
         self.cmd_vel_publisher = self.create_publisher(
             Twist,
@@ -32,15 +40,18 @@ class MinimalPublisher(Node):
 
     def angle_callback(self, msg):
         self.angle = msg.data
+    
+    def linear_callback(self, msg):
+        self.linear = msg.data
 
     def sign_callback(self, msg):
         if msg.data == 1:   # we need to go strict forward
             cmd_vel_msg = Twist()
         
-            linear_speed = 0.2
-            angular_speed = 10 * self.angle
+            linear_speed = self.linear
+            angular_speed = self.angle
             
-            cmd_vel_msg.linear.x = linear_speed
+            cmd_vel_msg.linear.x = float(linear_speed)
             cmd_vel_msg.angular.z = float(angular_speed)
 
             self.cmd_vel_publisher.publish(cmd_vel_msg)

@@ -1,0 +1,24 @@
+[1.651s] Invoking command in '/home/evrey/ros2_ws/my_sos': PYTHONPATH=/home/evrey/ros2_ws/my_sos/build/my_sos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_sos build --build-base /home/evrey/ros2_ws/my_sos/build/my_sos/build install --record /home/evrey/ros2_ws/my_sos/build/my_sos/install.log --single-version-externally-managed install_data
+[2.298s] running egg_info
+[2.299s] writing build/my_sos/my_sos.egg-info/PKG-INFO
+[2.301s] writing dependency_links to build/my_sos/my_sos.egg-info/dependency_links.txt
+[2.301s] writing entry points to build/my_sos/my_sos.egg-info/entry_points.txt
+[2.302s] writing requirements to build/my_sos/my_sos.egg-info/requires.txt
+[2.303s] writing top-level names to build/my_sos/my_sos.egg-info/top_level.txt
+[2.310s] reading manifest file 'build/my_sos/my_sos.egg-info/SOURCES.txt'
+[2.313s] writing manifest file 'build/my_sos/my_sos.egg-info/SOURCES.txt'
+[2.314s] running build
+[2.314s] running build_py
+[2.314s] copying my_sos/camera.py -> /home/evrey/ros2_ws/my_sos/build/my_sos/build/lib/my_sos
+[2.315s] running install
+[2.315s] running install_lib
+[2.318s] copying /home/evrey/ros2_ws/my_sos/build/my_sos/build/lib/my_sos/camera.py -> /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos
+[2.321s] byte-compiling /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos/camera.py to camera.cpython-310.pyc
+[2.324s] running install_data
+[2.325s] running install_egg_info
+[2.328s] removing '/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos-0.0.0-py3.10.egg-info' (and everything under it)
+[2.328s] Copying build/my_sos/my_sos.egg-info to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos-0.0.0-py3.10.egg-info
+[2.330s] running install_scripts
+[2.389s] Installing cv2_vis script to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/my_sos
+[2.390s] writing list of installed files to '/home/evrey/ros2_ws/my_sos/build/my_sos/install.log'
+[2.453s] Invoked command in '/home/evrey/ros2_ws/my_sos' returned '0': PYTHONPATH=/home/evrey/ros2_ws/my_sos/build/my_sos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_sos build --build-base /home/evrey/ros2_ws/my_sos/build/my_sos/build install --record /home/evrey/ros2_ws/my_sos/build/my_sos/install.log --single-version-externally-managed install_data

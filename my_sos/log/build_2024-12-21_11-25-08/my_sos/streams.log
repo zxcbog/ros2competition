@@ -1,0 +1,29 @@
+[0.611s] Invoking command in '/home/evrey/ros2_ws/my_sos': PYTHONPATH=/home/evrey/ros2_ws/my_sos/build/my_sos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_sos build --build-base /home/evrey/ros2_ws/my_sos/build/my_sos/build install --record /home/evrey/ros2_ws/my_sos/build/my_sos/install.log --single-version-externally-managed install_data
+[0.851s] running egg_info
+[0.851s] writing build/my_sos/my_sos.egg-info/PKG-INFO
+[0.852s] writing dependency_links to build/my_sos/my_sos.egg-info/dependency_links.txt
+[0.852s] writing entry points to build/my_sos/my_sos.egg-info/entry_points.txt
+[0.852s] writing requirements to build/my_sos/my_sos.egg-info/requires.txt
+[0.852s] writing top-level names to build/my_sos/my_sos.egg-info/top_level.txt
+[0.853s] reading manifest file 'build/my_sos/my_sos.egg-info/SOURCES.txt'
+[0.854s] writing manifest file 'build/my_sos/my_sos.egg-info/SOURCES.txt'
+[0.854s] running build
+[0.854s] running build_py
+[0.855s] copying my_sos/velor.py -> /home/evrey/ros2_ws/my_sos/build/my_sos/build/lib/my_sos
+[0.855s] copying my_sos/sos.py -> /home/evrey/ros2_ws/my_sos/build/my_sos/build/lib/my_sos
+[0.855s] running install
+[0.855s] running install_lib
+[0.856s] copying /home/evrey/ros2_ws/my_sos/build/my_sos/build/lib/my_sos/velor.py -> /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos
+[0.856s] copying /home/evrey/ros2_ws/my_sos/build/my_sos/build/lib/my_sos/sos.py -> /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos
+[0.856s] byte-compiling /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos/velor.py to velor.cpython-310.pyc
+[0.857s] byte-compiling /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos/sos.py to sos.cpython-310.pyc
+[0.858s] running install_data
+[0.858s] running install_egg_info
+[0.863s] removing '/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos-0.0.0-py3.10.egg-info' (and everything under it)
+[0.863s] Copying build/my_sos/my_sos.egg-info to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos-0.0.0-py3.10.egg-info
+[0.865s] running install_scripts
+[0.884s] Installing cv2_vis script to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/my_sos
+[0.885s] Installing sos_vis script to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/my_sos
+[0.885s] Installing velor script to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/my_sos
+[0.885s] writing list of installed files to '/home/evrey/ros2_ws/my_sos/build/my_sos/install.log'
+[0.907s] Invoked command in '/home/evrey/ros2_ws/my_sos' returned '0': PYTHONPATH=/home/evrey/ros2_ws/my_sos/build/my_sos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/my_sos build --build-base /home/evrey/ros2_ws/my_sos/build/my_sos/build install --record /home/evrey/ros2_ws/my_sos/build/my_sos/install.log --single-version-externally-managed install_data

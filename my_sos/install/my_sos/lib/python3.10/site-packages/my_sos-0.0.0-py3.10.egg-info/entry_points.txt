@@ -1,0 +1,5 @@
+[console_scripts]
+cv2_vis = my_sos.camera:main
+sos_vis = my_sos.sos:main
+velor = my_sos.velor:main
+

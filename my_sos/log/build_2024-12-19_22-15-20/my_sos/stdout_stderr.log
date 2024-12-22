@@ -1,0 +1,21 @@
+running egg_info
+writing build/my_sos/my_sos.egg-info/PKG-INFO
+writing dependency_links to build/my_sos/my_sos.egg-info/dependency_links.txt
+writing entry points to build/my_sos/my_sos.egg-info/entry_points.txt
+writing requirements to build/my_sos/my_sos.egg-info/requires.txt
+writing top-level names to build/my_sos/my_sos.egg-info/top_level.txt
+reading manifest file 'build/my_sos/my_sos.egg-info/SOURCES.txt'
+writing manifest file 'build/my_sos/my_sos.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/move.launch.py -> /home/evrey/ros2_ws/my_sos/install/my_sos/share/my_sos/launch
+running install_egg_info
+removing '/home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/my_sos/my_sos.egg-info to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/python3.10/site-packages/my_sos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cv2_vis script to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/my_sos
+Installing sos_vis = my_sos.sos:mainvelor script to /home/evrey/ros2_ws/my_sos/install/my_sos/lib/my_sos
+writing list of installed files to '/home/evrey/ros2_ws/my_sos/build/my_sos/install.log'
