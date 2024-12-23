@@ -38,6 +38,12 @@ class MinimalPublisher(Node):
             10
         )
 
+        self.pub_sign = self.create_publisher(
+            Int32,
+            'check',
+            10
+        )
+
     def angle_callback(self, msg):
         self.angle = msg.data
     
