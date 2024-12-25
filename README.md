@@ -13,6 +13,9 @@ A ROS2 metapackage that has necessary packages for AutoRace 2023 challenge.
 
 * `robot_bringup` - holds launch files, worlds and multiple configurations that serve as an example and as a required system for AutoRace to work.
 
+* `autorace_core_SkufLords` - main logic of holding robot in the lane
+* `detection` - main script that merge the sign detection logic, holding in the lane logic and some obstacles scenarious
+
 ## Usage for AutoRace 2023
 
 1. Install dependencies
@@ -40,10 +43,11 @@ A ROS2 metapackage that has necessary packages for AutoRace 2023 challenge.
     ros2 launch robot_bringup autorace_2023.launch.py
     ```
 
-5. Run your own launch file that controls the robot
+5. Run our logic:
 
     ```bash
-    ros2 launch <your_package> <your_launch>
+    ros2 launch autorace_core_SkufLords autorace_core.launch.py
+    ros2 run detection detect
     ```
 
 6. Run the referee
@@ -51,5 +55,3 @@ A ROS2 metapackage that has necessary packages for AutoRace 2023 challenge.
     ```bash
     ros2 run referee_console mission_autorace_2023_referee
     ```
-
-**Good luck!**
