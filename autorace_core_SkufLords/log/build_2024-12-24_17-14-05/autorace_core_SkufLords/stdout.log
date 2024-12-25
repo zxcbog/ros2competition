@@ -1,0 +1,24 @@
+running egg_info
+writing build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/PKG-INFO
+writing dependency_links to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/dependency_links.txt
+writing entry points to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/entry_points.txt
+writing requirements to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/requires.txt
+writing top-level names to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/top_level.txt
+reading manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+writing manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/autorace_core.launch.py -> /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/launch
+running install_egg_info
+removing '/home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cv2_vis script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing detect script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing lidar_greedy script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing road_analyze script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing velor script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+writing list of installed files to '/home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/install.log'

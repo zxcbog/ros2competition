@@ -1,0 +1,28 @@
+[1.828s] Invoking command in '/home/maxim/git_reps/Robotech/autorace_core_SkufLords': PYTHONPATH=/home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/autorace_core_SkufLords build --build-base /home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/build install --record /home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/install.log --single-version-externally-managed install_data
+[2.486s] running egg_info
+[2.487s] writing build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/PKG-INFO
+[2.487s] writing dependency_links to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/dependency_links.txt
+[2.487s] writing entry points to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/entry_points.txt
+[2.487s] writing requirements to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/requires.txt
+[2.487s] writing top-level names to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/top_level.txt
+[2.491s] reading manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+[2.492s] writing manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+[2.492s] running build
+[2.492s] running build_py
+[2.492s] copying autorace_core_SkufLords/detect.py -> /home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+[2.493s] running install
+[2.493s] running install_lib
+[2.495s] copying /home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords/detect.py -> /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+[2.499s] byte-compiling /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords/detect.py to detect.cpython-310.pyc
+[2.503s] running install_data
+[2.503s] running install_egg_info
+[2.508s] removing '/home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords-0.0.0-py3.10.egg-info' (and everything under it)
+[2.508s] Copying build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords-0.0.0-py3.10.egg-info
+[2.509s] running install_scripts
+[2.557s] Installing cv2_vis script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+[2.557s] Installing detect script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+[2.557s] Installing lidar_greedy script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+[2.557s] Installing road_analyze script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+[2.558s] Installing velor script to /home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+[2.558s] writing list of installed files to '/home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/install.log'
+[2.597s] Invoked command in '/home/maxim/git_reps/Robotech/autorace_core_SkufLords' returned '0': PYTHONPATH=/home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maxim/git_reps/Robotech/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/autorace_core_SkufLords build --build-base /home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/build install --record /home/maxim/git_reps/Robotech/autorace_core_SkufLords/build/autorace_core_SkufLords/install.log --single-version-externally-managed install_data

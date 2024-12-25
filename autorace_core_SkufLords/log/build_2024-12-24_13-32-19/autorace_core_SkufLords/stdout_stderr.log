@@ -1,0 +1,60 @@
+running egg_info
+creating build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info
+writing build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/PKG-INFO
+writing dependency_links to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/dependency_links.txt
+writing entry points to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/entry_points.txt
+writing requirements to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/requires.txt
+writing top-level names to build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/top_level.txt
+writing manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+reading manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+writing manifest file 'build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+copying autorace_core_SkufLords/detect.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+copying autorace_core_SkufLords/__init__.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+copying autorace_core_SkufLords/velor.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+copying autorace_core_SkufLords/camera.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+copying autorace_core_SkufLords/road_analyze.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords
+running install
+running install_lib
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+copying /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords/detect.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+copying /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords/__init__.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+copying /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords/velor.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+copying /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords/camera.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+copying /home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/build/lib/autorace_core_SkufLords/road_analyze.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords
+byte-compiling /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords/detect.py to detect.cpython-310.pyc
+byte-compiling /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords/velor.py to velor.cpython-310.pyc
+byte-compiling /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords/camera.py to camera.cpython-310.pyc
+byte-compiling /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords/road_analyze.py to road_analyze.cpython-310.pyc
+running install_data
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/ament_index
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/ament_index/resource_index
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/ament_index/resource_index/packages
+copying resource/autorace_core_SkufLords -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/ament_index/resource_index/packages
+copying package.xml -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/pedestrian_crossing_sign.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/traffic_right.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/traffic_intersection.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/traffic_parking.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/tunnel.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/traffic_left.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+copying materials/traffic_construction.png -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/materials
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/launch
+copying launch/autorace_core.launch.py -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/launch
+creating /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/util
+copying util/best.pt -> /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/share/autorace_core_SkufLords/util
+running install_egg_info
+Copying build/autorace_core_SkufLords/autorace_core_SkufLords.egg-info to /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/python3.10/site-packages/autorace_core_SkufLords-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cv2_vis script to /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing detect script to /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing lidar_greedy script to /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing road script to /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+Installing velor script to /home/evrey/ros2_ws/autorace_core_SkufLords/install/autorace_core_SkufLords/lib/autorace_core_SkufLords
+writing list of installed files to '/home/evrey/ros2_ws/autorace_core_SkufLords/build/autorace_core_SkufLords/install.log'
